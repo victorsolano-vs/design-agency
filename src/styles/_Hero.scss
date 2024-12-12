@@ -1,0 +1,25 @@
+.headingTitle{
+    position: relative;
+}
+
+.heroTitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    font-size: 80px;
+    pointer-events: none;
+    text-wrap: nowrap;
+
+    font-family: 'poppins';
+
+}
+
+.heroSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: aquamarine;
+    min-height: 100vh;
+}

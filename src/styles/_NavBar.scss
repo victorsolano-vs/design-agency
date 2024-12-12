@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    padding: 10px 30px;
+}
+
+.navLinksContainer{
+    list-style: none;
+    display: flex;
+    li{
+        padding: 15px 25px;
+    }
+}
