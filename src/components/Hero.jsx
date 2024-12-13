@@ -2,11 +2,9 @@ import { useEffect, useRef } from 'react'
 
 
 import HoverEffect from 'hover-effect'
-import img1 from '../images/test5.jpg'
-import img2 from '../images/test6.jpg'
-// import img1 from '../images/img10.jpg'
-// import img2 from '../images/img14.jpg'
-import displacement from '../images/7.jpg'
+import img1 from '../assets/images/test5.jpg'
+import img2 from '../assets/images/test6.jpg'
+import displacement from '../assets/images/7.jpg'
 
 function Hero() {
 
@@ -47,7 +45,7 @@ function Hero() {
                     }}
             >
             </div>
-            <h1 className='heroTitle'>VIXION DESIGN</h1>
+            <h1 className='heroTitle'>Vixion Design</h1>
         </div>
         
     </section>

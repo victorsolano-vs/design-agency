@@ -8,12 +8,17 @@
     left: 50%;
     transform: translate(-50%,-50%);
 
-    font-size: 80px;
+    font-size: 70px;
+    text-transform: uppercase;
     pointer-events: none;
     text-wrap: nowrap;
 
-    font-family: 'poppins';
+    font-family: 'aqua', serif;
 
+}
+
+.morphContainer{
+    border-radius: 5px;
 }
 
 .heroSection{
