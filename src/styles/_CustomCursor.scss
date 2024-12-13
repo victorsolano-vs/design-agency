@@ -1,0 +1,37 @@
+#customCursor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9999;
+    transition: transform 0.3s ease;
+}
+
+#ring{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+#selector{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: black;
+
+    position: absolute;
+  top: 50%;
+  z-index: 5;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+
+.scale-up {
+    background-color: red;
+  }

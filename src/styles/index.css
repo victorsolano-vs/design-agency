@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: none;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 @font-face {
@@ -14,6 +16,39 @@ a {
   font-weight: normal;
   font-style: normal;
 }
+#customCursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.3s ease;
+}
+
+#ring {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#selector {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.scale-up {
+  background-color: red;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -41,7 +76,7 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 70px;
+  font-size: 100px;
   text-transform: uppercase;
   pointer-events: none;
   text-wrap: nowrap;

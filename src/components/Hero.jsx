@@ -2,8 +2,8 @@ import { useEffect, useRef } from 'react'
 
 
 import HoverEffect from 'hover-effect'
-import img1 from '../assets/images/test5.jpg'
-import img2 from '../assets/images/test6.jpg'
+import img1 from '../assets/images/test8.jpg'
+import img2 from '../assets/images/test9.jpg'
 import displacement from '../assets/images/7.jpg'
 
 function Hero() {
