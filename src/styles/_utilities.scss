@@ -5,6 +5,7 @@
     cursor: none;
 }
 
+
 a{
     text-decoration: none;
     color: black;
@@ -15,4 +16,7 @@ a{
     src: url('../assets/fonts/aqua.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+body{
+    background-color: white;
 }
