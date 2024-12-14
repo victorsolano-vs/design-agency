@@ -96,6 +96,13 @@ function CustomCursor() {
       customCursor.style.mixBlendMode = 'normal'
       }
 
+    const handleMouseUp = () => {
+      border.style.transform = 'translate(-50%, -50%) scale(1)';
+      }
+    const handleMouseDown = () => {
+      border.style.transform = 'translate(-50%, -50%) scale(0.1)';
+      }
+
 
       const interactiveElements = document.querySelectorAll('a, button, .morphContainer')
       interactiveElements.forEach((element) => {
@@ -116,11 +123,16 @@ function CustomCursor() {
 
 
     document.addEventListener("mousemove", handleMouseMove)
+    document.addEventListener("mousedown", handleMouseDown)
+    document.addEventListener("mouseup", handleMouseUp)
     requestAnimationFrame(updateBorderPosition)
 
     // Cleanup event listeners on component unmount
     return () => {
       document.removeEventListener("mousemove", handleMouseMove)
+      
+      document.removeEventListener("mousedown", handleMouseDown)
+      document.removeEventListener("mouseup", handleMouseUp)
       
       interactiveElements.forEach((element) => {
         element.removeEventListener('mouseenter', handleMouseEnter);
