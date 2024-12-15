@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   cursor: none;
+  color: #1D1D1F;
+}
+
+body {
+  margin-bottom: 1000px;
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -16,8 +24,15 @@ a {
   font-weight: normal;
   font-style: normal;
 }
-body {
-  background-color: white;
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1D1D1F;
+  border-radius: 10px;
 }
 
 .customCursor {
@@ -58,6 +73,7 @@ nav {
   align-items: center;
   position: fixed;
   top: 0;
+  z-index: 99999;
   width: 100%;
   padding: 10px 30px;
 }

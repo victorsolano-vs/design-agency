@@ -32,7 +32,7 @@ function Hero() {
 
 
   return (
-    <>
+    
     <section className='heroSection'>
         <div className="headingTitle">
             <div
@@ -46,14 +46,11 @@ function Hero() {
             >
             </div>
             <h1 className='heroTitle'>Vixion Design</h1>
+
         </div>
         
     </section>
-    <article>
-        {/* <p>en</p> */}
-        
-    </article>
-    </>
+    
   )
 }
 
