@@ -2,62 +2,6 @@ import { useEffect, useRef } from "react"
 
 function CustomCursor() {
 
-  // const cursorRef = useRef(null)
-  // const cursorSelectorRef = useRef(null)
-  
-
-  // useEffect(() => {
-  //     const cursor = cursorRef.current
-  //     const cursorSelector = cursorSelectorRef.current
-
-  //     const handleMouseMove = (e) => {
-  //       cursor.style.left = `${e.clientX}px`
-  //       cursor.style.top = `${e.clientY}px`
-  //     }
-
-  //     const handleMouseEnter = () => {
-  //       cursor.style.transform = 'translate(-50%, -50%) scale(1.5)';
-  //       cursor.style.background = 'white';
-  //       cursor.style.mixBlendMode = 'difference';
-
-  //       cursorSelector.classList.add('selectorHover')
-
-  //     }
-
-  //     const handleMouseLeave = () => {
-  //       cursor.style.transform = 'translate(-50%, -50%) scale(1)';
-  //       cursor.style.mixBlendMode = 'normal';
-  //       cursor.style.background = 'transparent';
-
-  //       cursorSelector.classList.remove('selectorHover')
-
-  //     }
-
-  //     const interactiveElements = document.querySelectorAll('a, button, .morphContainer')
-  //     interactiveElements.forEach((element) => {
-  //       element.addEventListener('mouseenter', handleMouseEnter)
-  //       element.addEventListener('mouseleave', handleMouseLeave)
-  //     })
-
-
-
-
-  //     document.addEventListener('mousemove', handleMouseMove)
-
-
-  //     // Cleanup event listeners on component unmount
-  //     return () => {
-  //       document.removeEventListener('mousemove', handleMouseMove)
-
-  //       interactiveElements.forEach((element) => {
-  //         element.removeEventListener('mouseenter', handleMouseEnter);
-  //         element.removeEventListener('mouseleave', handleMouseLeave);
-  //       })
-
-  //     }
-
-  // }, [])
-
   const cursorRef = useRef(null)
   const borderRef = useRef(null)
   const customCursorRef = useRef(null)

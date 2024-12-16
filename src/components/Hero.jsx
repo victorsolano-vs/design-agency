@@ -34,20 +34,33 @@ function Hero() {
   return (
     
     <section className='heroSection'>
+      <div className="heroContent">
         <div className="headingTitle">
-            <div
-                    className='morphContainer'
-                    ref={containerRef}
-                    style={{
-                        width: "310px",
-                        height: "590px",
-                        overflow: "hidden"
-                    }}
-            >
-            </div>
-            <h1 className='heroTitle'>Vixion Design</h1>
+              <div
+                      className='morphContainer'
+                      ref={containerRef}
+                      style={{
+                          width: "310px",
+                          height: "590px",
+                          overflow: "hidden"
+                      }}
+              >
+              </div>
+              <h1 className='heroTitle'>Vixion Design</h1>
+              
+          </div>
 
-        </div>
+        <div className="heroText">
+              <h3>Digitize your ideas</h3>
+              <p>Vixion design prioritizes creating memorable and outstanding web experiences that will leave a stamp on your visitors.</p>
+              <a href="#">View our work</a>
+            </div>
+      </div>
+
+
+        
+
+        
         
     </section>
     

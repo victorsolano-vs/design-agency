@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 @font-face {
@@ -40,7 +40,7 @@ a {
   top: 0;
   left: 0;
   pointer-events: none;
-  z-index: 1000;
+  z-index: 9999;
   background: transparent;
   transition: all 0.3s ease;
 }
@@ -73,7 +73,7 @@ nav {
   align-items: center;
   position: fixed;
   top: 0;
-  z-index: 99999;
+  z-index: 99;
   width: 100%;
   padding: 10px 30px;
 }
@@ -111,4 +111,16 @@ nav {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+.heroText {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: -270px;
+  max-width: 250px;
+}
+
+.heroContent {
+  position: relative;
 }

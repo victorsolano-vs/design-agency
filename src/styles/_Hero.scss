@@ -25,6 +25,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    // background-color: aquamarine;
     min-height: 100vh;
+}
+
+.heroText{
+    position: absolute;
+    z-index: 1;
+    // background-color: aqua;
+    bottom: 0;
+    right: -270px;
+    max-width: 250px;
+}
+
+
+.heroContent{
+    position: relative;
 }
